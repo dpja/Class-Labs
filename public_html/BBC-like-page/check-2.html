@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            
+            .arrow-up {
+  width: 0px; 
+  height: 0px; 
+  border-left: 105px solid transparent;
+ border-right: 105px solid transparent;
+  
+  border-bottom: 105px solid black;
+}
+            .arrow-right {
+  width: 0px; 
+  height: 0px; 
+  border-top: 105px solid transparent;
+ border-bottom: 105px solid transparent;
+  
+  border-left: 105px solid black;
+}
+.half-box{
+    width:100px;
+    height:100px;
+    background-color:gold;
+    //float:left;
+}
+.half-box :after{
+    content:"";
+    width:0px;
+    height:0px;
+   // display:inline-block;
+    background-color:gold;
+    border-top:100px solid red;
+    border-bottom:100px solid red;
+    border-left:100px solid gold;
+    //float:left;
+}
+
+li.breadcrumb {
+    list-style-type: none;
+    background-color: blue;
+    display: inline-block;
+    float: left;
+    line-height: 0;
+}
+li.breadcrumb:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid red;
+    border-left: 20px solid blue;
+}
+li.first-crumb:after {
+    border-top: 20px solid blue;
+    border-bottom: 20px solid blue;
+    border-left: 20px solid yellow;
+}
+li.first-crumb {
+    background: yellow;
+}
+        </style>
+    </head>
+    <body>
+        <div class="arrow-up"></div>
+        <div class="arrow-right"></div>
+        <div class="box">
+        </div>
+        =================================================
+        
+        <div class="breadcrumb">
+    <ul class="breadcrumb">
+        <li class="breadcrumb first-crumb"><a href="#">Hurr</a>
+        </li>
+        <li class="breadcrumb"><a href="#">Durr</a>
+        </li>
+        <li class="breadcrumb last-crumb"><span>Furr</span>
+        </li>
+    </ul>
+</div>
+<!--<div class="arrow-right"></div>-->
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            
+            ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+    width:300px;
+    height:180px;
+     outline:1px solid green;
+}
+ul > li {
+    display: block;
+    width: 50%;
+    min-height:90px;
+     outline:1px solid pink;
+}
+ul > li > ul >li {
+    color: red;
+}
+div {
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    -ms-column-count:2;
+    -o-column-count:2;
+    column-count:2;
+    -webkit-column-gap:2px;
+    -moz-column-gap:2px;
+    -ms-column-gap:2px;
+    -o-column-gap:2px;
+    column-gap:2px;
+    columns:3;
+}
+#one{
+     background:url("./pics/facebook-like-thumb-up-icon-630.jpg") no-repeat ;
+                background-size:cover;
+                background-position:50% 50%;
+}
+#two{
+     background:url("./pics/twitter1600.png") no-repeat;
+                background-size:cover;
+              background-position:100% 70%;
+}
+#three{
+      background:url("./pics/Pinterest-logo-850x250.jpg") no-repeat ;
+                background-size:cover;
+                 background-position:100% 50%;
+}
+#four{
+      background:url("./pics/Instagram_Icon_Large-504x220.jpg") no-repeat;
+                background-size:cover;
+              background-position:100% 20%;
+}
+ 
+        </style>
+    </head>
+    <body>
+        <div>
+<ul>
+   <li>
+      List-item
+      <ul>
+         <li id="one"></li>
+         <li id="two">Sub-list-item</li>
+      </ul>
+   </li>
+   <li>
+      List-item
+      <ul>
+         <li id="three">Sub-list-item</li>
+         <li id="four">Sub-list-item</li>
+      </ul>
+   </li>
+</ul>
+</div>
+    </body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            #two-column-block{
+                width:90%;
+                background-color:lawngreen;
+                min-height : 1800px;
+                margin: 0px auto;
+                margin-top:0%;
+            }
+            #two-column-block-col-1{
+                width:50%;
+                display:inline-block;
+                background-color:lightcoral;
+                min-height : 1800px;
+                margin-left:3% ;
+                margin-right:2% ;
+                margin-top:2% ;
+                margin-bottom:2% ;
+                vertical-align: middle;
+
+            } 
+            #two-column-block-col-2{
+                width:40%;
+                display:inline-block;
+                background-color:lightblue;
+                min-height : 1800px;
+                margin-left:1% ;
+                margin-right:2% ;
+                margin-top:2% ;
+                margin-bottom:2% ;
+                vertical-align: middle;
+            } 
+
+            /*  =================MAIN 2 COLUMN BLOCKS ----FIRST BLOCK=============*/
+            #two-column-block-col-1-BOX-1{
+                min-height:600px;
+                width:100%;
+                outline:2px solid grey;
+                margin:0% auto;
+            }
+            .two-column-block-col-1-IMG-BOX{
+                min-height:480px;
+                width:100%;
+                outline:2px solid yellow;
+                cursor:pointer;
+                margin:0%;
+            }
+
+            .two-column-block-col-1-TEXT-BOX {
+                min-height:120px;
+                text-align:center;
+                display:inline-table;
+                background-color: yellow;
+                outline:2px solid black;
+                cursor:pointer;
+            }
+            
+             #col-1-IMG-BOX-1 {
+                min-height:480px;
+                width:100%;
+                display:block;
+                background:url("./pics/culture-photo-2.jpg")no-repeat;
+                background-size: cover;
+              background-position:95% 100%;
+            }
+
+
+            .two-column-block-col-1-TEXT-BOX  a:first-of-type{
+                display:inline-block;
+                color:red;
+               // width:100%;
+               // height:100%;
+
+            }
+            .two-column-block-col-1-TEXT-BOX  a:link,a:visited{
+                font-size:20px;
+                 display:inline-table;
+                 text-decoration: none;
+                 transition:all .5s ease-out;
+
+            }
+            .two-column-block-col-1-TEXT-BOX a:hover{
+                font-size:25px;
+               color:slateblue;
+            text-align:center;
+            transform :scale(1 ,2);
+            }
+          
+            .btn-info{
+              min-height:20px;
+              padding:10px;
+            display:inline-block;
+                background:lightslategrey;
+                color:white;
+                line-height: 20px;
+                text-align: center;
+                width:20%;
+                border:2px solid pink;
+                border-radius:8px 10px;
+                margin:1% 2%;
+            }
+            
+           
+          
+
+            /*            ===========MEDIA QUERIES========================*/
+            @media all  and (min-width: 420px) and (max-width: 569px){
+                #two-column-block{
+                    width:90%;
+                    min-height : 2000px;
+                    margin: 0px auto;
+                    margin-top:5%;
+                }
+                #two-column-block-col-1{
+                    width:100%;
+                    display:block;
+                    min-height : 1000px;
+                    margin-left:0%;
+                    margin-right:0%;
+                    margin-top:0%;
+                    margin-bottom:2%;
+                  
+
+                }
+                #two-column-block-col-2{
+                    width:100%;
+                    display:block;
+                    min-height : 1000px;
+                    margin-left:0%;
+                    margin-right:0%;
+                    margin-top:6%;
+                    margin-bottom:2%;
+                }
+                
+                
+                 #col-1-IMG-BOX-1 {
+              background-position:79% 100%;
+            }
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="two-column-block">
+            <div id="two-column-block-col-1">
+                <div id="two-column-block-col-1-BOX-1">
+                    <div class="two-column-block-col-1-IMG-BOX" >
+                        <a id="col-1-IMG-BOX-1" href="https://www.google.com"></a>
+                    </div> 
+
+                    <div class="two-column-block-col-1-TEXT-BOX" >
+                        <p > 
+                            <a href="https://www.google.com" > Lorem ipsum dolor sit amet</a></p>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                In semper ex neque, id auctor lorem tincidunt eget.
+                                
+                        </p>
+                       
+                      <div id="btn">
+                          <ul >
+                          <li class="btn-info" style="">History</li>
+                          </ul>
+                      </div>
+                       
+                        <div class="btn-info">More on this</div>
+                    </div> 
+                </div> 
+                <div id="two-column-block-col-1-box-2"></div> 
+                <div id="two-column-block-col-1-box-3"></div> 
+
+
+
+
+
+            </div> 
+            <div id="two-column-block-col-2"></div> 
+
+
+
+
+
+
+        </div> 
+
+
+    </body>
+</html>

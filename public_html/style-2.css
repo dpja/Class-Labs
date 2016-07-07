@@ -1,0 +1,759 @@
+        body{
+                background: gold;
+            }
+             *{
+                font-family:helvetica;
+                font-size:16px;
+            }
+/*            =======================MAIN PARTS==================================*/
+            #wrapper{
+                width:100%;
+                background:firebrick;
+                min-height: 2000px;
+                margin: 0px auto;
+            }
+            header{
+                 width:100%;
+                background:white;
+                min-height: 150px;
+            }
+            
+          footer{
+                 width:100%;
+                background:lightsteelblue;
+                min-height: 300px;
+            }
+          main{
+                 width:100%;
+                background:black;
+                min-height: 1800px;
+            }
+            
+/*           =====================================NAV================================== */
+            nav{
+               min-height: 35px; 
+            }
+            #main-nav {
+                min-height: 35px;
+                background:orange;
+                margin-top:5px;
+            }
+            #main-nav li{
+                float:left;
+                width:18%;
+                background:black;
+               
+               outline:2px solid red;
+            }
+            
+            #main-nav li:nth-of-type(3){
+                width:21%;
+            }
+            #main-nav li:nth-of-type(4){
+                width:16%;
+            }
+            #main-nav li:nth-of-type(5){
+                width:27%;
+            }
+            #main-nav li a{
+                 color:white;
+                display:inline-block;
+                width:100%;
+                 line-height:30px;
+                height:30px;
+                text-align: center;
+                text-decoration: none;
+                transition: all .4s ease-in-out;
+            }
+              
+            #main-nav li a:hover{
+                display:inline-block;
+               color:white;
+               background:lightgreen;
+                text-align: center;
+                text-decoration: none;
+                font-size:20px;
+            }
+            
+/*            ===========================INTRO=====================================*/
+            #intro{
+                width:100%;
+                min-height:auto;
+                background: cyan;
+            }
+            #intro >div{
+             width:100%;
+            }
+
+            #intro >div p{
+                margin:0px auto;
+            }
+          
+             #intro   p{
+                width:100%;
+                 text-align:center;
+                  min-height :150px;
+                  line-height:150px;
+                  font-family:Arial;
+                  font-size:3em;
+                 background:url(./pics/logo-design-2.jpg) no-repeat ;
+               background-size:100% 100%;
+              
+            }
+/*            =================================SUB-NAV AND PHOTOBLOCK===============*/
+             #photo-block{
+                min-height:450px;
+                background: orange url("./pics/block-photo-2.jpg")no-repeat;
+                background-size: cover;
+            }
+            #photo-block h1{
+                display:block;
+                color:white;
+                padding:5%;
+                font-weight:bold;
+                font-size:1.5em;
+            }
+            
+            #sub-nav {
+                min-height:30px;
+                 background:darkolivegreen;
+                 margin:0px auto;
+                 width:90%;
+            }
+            #sub-nav li {
+                min-height:30px;
+                 float:left;
+                width:25%;
+               outline:2px solid red;
+            }
+            #sub-nav li:nth-child(3) {
+               
+               // width:32%;
+              
+            }
+            #sub-nav li:nth-child(4) {
+               
+                //width:18%;
+              
+            }
+             #sub-nav li a{
+                 color:white;
+                display:inline-block;
+                width:100%;
+                 line-height:30px;
+                height:30px;
+                text-align: center;
+                text-decoration: none;
+                transition: all .4s ease-in-out;
+            }
+            #sub-nav li:hover{
+                background-color:yellow; 
+            }
+            #sub-nav li a:hover{
+                font-size:.9em;
+                background-color:yellow;
+                color:black;
+                font-weight:500;
+            }
+            
+            
+             /*            ================MAIN 2 COLUMN BLOCK==================*/
+            #two-column-block{
+                width:90%;
+                background-color:lawngreen;
+                min-height : 1800px;
+                margin: 0px auto;
+                margin-top:0%;
+            }
+
+
+            /*  =================MAIN 2 COLUMN BLOCKS =============*/
+            #two-column-block{
+                width:90%;
+                background-color:lawngreen;
+                min-height : 1800px;
+                margin: 0px auto;
+                margin-top:0%;
+            }
+            #two-column-block-col-1{
+                width:50%;
+                display:inline-block;
+                background-color:lightcoral;
+                min-height : 1800px;
+                margin-left:3% ;
+                margin-right:2% ;
+                margin-top:2% ;
+                margin-bottom:2% ;
+                vertical-align: top;
+               // overflow:hidden;
+
+            } 
+            #two-column-block-col-2{
+                width:40%;
+                display:inline-block;
+                background-color:lightblue;
+                min-height : 1800px;
+                margin-left:1% ;
+                margin-right:2% ;
+                margin-top:2% ;
+                margin-bottom:2% ;
+                vertical-align: top;
+            } 
+
+            /*  =================MAIN 2 COLUMN BLOCKS ----FIRST BLOCK=============*/
+            .col-1-BOX{
+                min-height:600px;
+                width:100%;
+                outline:2px solid grey;
+                margin:0% auto;
+            }
+            
+             .col-1-BOX{
+                margin-bottom:5%;
+            }
+            .col-1-BOX:nth-of-type(3){
+                 margin-bottom:0%;
+            }
+            
+/* =========================COL-1 IMG BOX AND TEXT-BOX========================*/
+
+            .col-1-BOX-IMG-BOX{
+                min-height:480px;
+                width:100%;
+                outline:2px solid yellow;
+                cursor:pointer;
+                margin:0%;
+            }
+
+             #col-1-IMG-BOX-1 {
+                min-height:480px;
+                width:100%;
+                display:block;
+                background:url("./pics/culture-photo-2.jpg")no-repeat;
+                background-size: cover;
+              background-position:95% 100%;
+            }
+            
+            .col-1-BOX-TEXT-BOX {
+                min-height:120px;
+                padding:2%;
+                text-align:center;
+                display:table;
+                background-color: yellow;
+                outline:2px solid black;
+                cursor:pointer;
+            }
+            
+            
+
+            .col-1-BOX-TEXT-BOX  a:first-of-type{
+                display:inline-block;
+                color:red;
+               // width:100%;
+               // height:100%;
+
+            }
+            .col-1-BOX-TEXT-BOX  a:link,a:visited{
+                font-size:20px;
+                 display:inline-table;
+                 text-decoration: none;
+                 transition:all .5s ease-out;
+
+            }
+            .col-1-BOX-TEXT-BOX a:hover{
+                font-size:25px;
+               color:slateblue;
+            text-align:center;
+            transform :scale(1 ,2);
+            }
+          
+            .btn-info{
+              min-height:25px;
+              padding:1%;
+              padding-top:1%;
+              display:inline-block;
+                background:lightslategrey;
+                color:white;
+                line-height: 25px;
+                text-align: center;
+                width:20%;
+                border:2px solid pink;
+                border-radius:8px 10px;
+                margin:6% 2%;
+            }
+           
+          
+             #col-1-IMG-BOX-2 {
+                min-height:480px;
+                width:100%;
+                display:block;
+                background:url("./pics/culture-photo-3.jpg")no-repeat;
+                background-size: cover;
+              background-position:95% 100%;
+            }
+             #col-1-IMG-BOX-3 {
+                min-height:480px;
+                width:100%;
+                display:block;
+                background:url("./pics/culture-photo-6.jpg")no-repeat;
+                background-size: cover;
+              background-position:95% 100%;
+            }
+            
+               /*      ===========COMPLETE -----COL-2-- START===============*/
+            #col-2-caption{
+                width:100%;
+                min-height:100px;
+                background: peru;
+
+            }
+            #col-2-caption h1{
+                text-align: center;
+               // width:90%;
+              display:block;
+              padding:10% 2%;
+              font-size:1.5em;
+                background: peru;
+               font-weight:bold;
+               margin-bottom:3%;
+               font-family:Lucidatypewriter, monospace;
+
+            }
+            .col-2-BOX-1{
+                position:relative;
+                min-height:400px;
+                margin:0%;
+                background-color:orange;
+                margin-bottom: 8%;
+            }
+           
+            
+           
+            .col-2-BOX-5{
+                position:relative;
+                height:150px;
+                padding:0%;
+                margin:0%;
+                background-color:orange;
+                margin-bottom:0%;
+                margin-top:-5%;
+            }
+           
+             
+/*==============a small border underneath a div========================*/
+            .col-2-BOX-1:after{
+                position:absolute;
+                content:"";
+                   display:block;
+                   width:50%;
+                   left:30%;
+                   height:15px;
+                   border-bottom:3px solid grey;
+            }
+            
+            .col-2-BOX-1:nth-of-type(5):after{
+                position:absolute;
+                content:"";
+                   display:block;
+                   width:50%;
+                   left:30%;
+                   height:0px;
+                   border-bottom:0px;
+            }
+            
+          
+            .col-2-IMG-BOX{
+               min-height:300px;
+                margin:0%;  
+                 background-color:hotpink;
+            }
+            .col-2-TEXT-BOX{
+                 min-height:100px;
+                margin:0%;  
+                 background-color:yellow;
+                
+            }
+            #col-2-IMG-BOX-1 {
+                min-height:300px;
+                display:block;
+                background: url("./pics/culture-photo-4.jpg")no-repeat;
+                background-size:cover;
+            }
+            .col-2-TEXT-BOX p{
+                text-align:left;
+                padding:2%;
+            }
+            #col-2-IMG-BOX-2 {
+                min-height:300px;
+                display:block;
+                background: url("./pics/culture-photo-7.jpg")no-repeat;
+                background-size:cover;
+                background-position:10% 50%;
+            }
+            #col-2-IMG-BOX-3{
+                 min-height:300px;
+                display:block;
+                background: url("./pics/culture-photo-8.jpg")no-repeat;
+                background-size:cover;
+                background-position:10% 50%;
+            }
+            #col-2-IMG-BOX-4{
+                 min-height:300px;
+                display:block;
+                background: url("./pics/culture-photo-9.jpg")no-repeat;
+                background-size:cover;
+                background-position:10% 50%;
+            }
+/*        ===================COL-2-BOX-5 AND MEDIA ICONS SECTION=======================*/ 
+
+            .col-2-BOX-5{
+                position:relative;
+                height:150px;
+                padding:0%;
+                margin:0%;
+                background-color:orange;
+                margin-bottom:0%;
+                margin-top:-5%;
+            }
+           
+
+              ul.media-icons{
+               width:100%;
+                height:150px;
+                list-style-type: none;
+               
+            }
+            
+                .clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+
+.clearfix { display: block; }
+                
+         .clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+              ul.media-icons li{
+               
+               width:50%;
+               float:left;
+                height:75px;
+                border-bottom:2px solid darkred;
+            }
+
+              ul.media-icons li a{
+               width:100%;
+              display:block;
+                height:75px;
+               
+            }
+           
+            ul.media-icons li:nth-child(odd){
+               // border-right:4px solid palegoldenrod;
+            }    
+           
+           
+            #med-icon-1{
+                
+                background-color:yellow;
+                background:url("./pics/facebook-like-thumb-up-icon-630.jpg") no-repeat ;
+                background-size:cover;
+                background-position:50% 50%;
+            }
+            #med-icon-2{
+                
+                background-color:yellow;
+                background:url("./pics/twitter1600.png") no-repeat;
+                background-size:cover;
+              background-position:100% 70%;
+            }
+            #med-icon-3{
+                
+                background-color:yellow;
+                background:url("./pics/Pinterest-logo-850x250.jpg") no-repeat ;
+                background-size:cover;
+                 background-position:100% 50%;
+            }
+            #med-icon-4{
+                
+                background-color:yellow;
+                background:url("./pics/Instagram_Icon_Large-504x220.jpg") no-repeat;
+                background-size:cover;
+              background-position:100% 20%;
+            }
+/*==========================FOOTER========================================*/
+
+ footer{
+                 width:100%;
+                background:lightgrey;
+                min-height: 300px;
+            }
+    footer      h1{
+
+              padding:1%;
+               padding-top:3%;
+               padding-bottom:2%;
+               font-size :35px;
+               text-align: left;
+                
+            }
+    footer p{
+
+              padding:1%;
+               padding-top:3%;
+               padding-bottom:2%;
+               font-size :25px;
+               text-align: left;
+               font-weight:700;
+                
+            }
+            footer div{
+                padding:3%;
+            }
+
+            ul.col-count{
+                padding-left:2%;
+                list-style: none;
+                width:100%;
+                display:block;
+                
+            }
+            ul.sub-list li{
+                padding-bottom:2%;
+                padding-top:2%;
+            }
+            ul.sub-list li a{
+               text-decoration:none;
+               width:100%;
+               display:block;
+               
+            }
+            ul.sub-list li a:hover{
+               text-decoration:none;
+               width:100%;
+               display:block;
+               color:white;
+            }
+           
+       footer     div{
+                column-count:3;
+                 -moz-column-count: 3;
+                column-gap:2%;
+                -moz-column-gap: 40px;
+                column-rule:4px outset magenta;
+                -moz-column-rule:4px outset magenta;
+                border-bottom: 1px solid magenta;
+            }
+
+
+/*             ============================MEDIA QUERIES==========================*/
+              @media all  and (min-width: 420px) and (max-width: 569px){
+                  
+                  #main-nav li:nth-child(1) a span{
+                color:transparent;
+            }
+            #main-nav li:nth-child(1) a .fa {
+                position:absolute;
+                z-index:2;
+                
+                left:18%;
+                font-size:1.4em;
+                top:2%;
+            }
+                 #intro   p{
+                font-size:2em;
+             font-weight:bold;
+                color:purple;
+                padding-top:1% ;
+                 }
+                 
+                  #sub-nav {
+                min-height:35px;
+                 background:darkolivegreen;
+                 margin:0px auto;
+                 width:100%;
+            }
+             #sub-nav li {
+                min-height:35px;
+                line-height:30px;
+                 float:left;
+                 padding-left:1%;
+                 padding-right:1%;
+                width:17%;
+               outline:2px solid red;
+            }
+             #sub-nav li:nth-child(3) {
+               
+           width:32%;
+              
+            }
+             #sub-nav li:nth-child(4) {
+               
+           width:25%;
+               
+            }
+            #sub-nav li:nth-child(2){
+                position:relative;
+                
+                
+            }
+            #sub-nav li:nth-child(2) a span{
+                
+                color:transparent;
+            }
+            #sub-nav li:nth-child(2) a:before{
+                 position:absolute;
+                 font-family: 'FontAwesome';
+                content:"\f090";
+               display:inline-block;
+             left:30%;
+             top:10%;
+               font-size:1.8em;
+            }
+            
+             #two-column-block{
+                    width:90%;
+                    min-height : 2000px;
+                    margin: 0px auto;
+                    margin-top:5%;
+                }
+                #two-column-block-col-1{
+                    width:100%;
+                    display:block;
+                    min-height : 1800px;
+                    margin-left:0%;
+                    margin-right:0%;
+                    margin-top:0%;
+                    margin-bottom:2%;
+                  
+
+                }
+                #two-column-block-col-2{
+                    width:100%;
+                    display:block;
+                    min-height : 1800px;
+                    margin-left:0%;
+                    margin-right:0%;
+                    margin-top:0%;
+                    margin-bottom:2%;
+                }
+                
+                
+                 #col-1-IMG-BOX-1 {
+              background-position:79% 100%;
+            }
+            
+            }
+           
+              @media all  and (min-width: 570px) and (max-width: 799px){
+                 #intro   p{
+                font-size:1.5em;
+                font-weight:bold;
+                color:brown;
+                 }
+                 #sub-nav {
+               
+                 width:97%;
+            }
+              #sub-nav li {
+                min-height:25px;
+                line-height:25px;
+                 float:left;
+                 padding-left:.5%;
+                 padding-right:.5%;
+                width:22%;
+               outline:2px solid red;
+            }   
+              #sub-nav li a {
+                width: 100%;
+                 min-height:25px;
+                line-height:25px;
+                display:inline-block;
+              
+            }   
+              #sub-nav li:nth-child(3) {
+                width:29%;
+               outline:2px solid red;
+            }  
+            .media-icons {
+              //  min-height:400px;
+            }
+            .media-icons li a{
+                display:block;
+                width:100%;
+            }
+             #med-icon-2{
+                
+                background-color:yellow;
+                background:url("./pics/twitter1600.png") no-repeat;
+                background-size:cover;
+              background-position:50% 100%;
+            }
+            
+            #med-icon-3{
+                
+                background-color:yellow;
+                background:url("./pics/Pinterest-logo-850x250.jpg") no-repeat ;
+                background-size:cover;
+                 background-position:40% 50%;
+            }
+            #med-icon-4{
+                
+                background-color:yellow;
+                background:url("./pics/Instagram_Icon_Large-504x220.jpg") no-repeat;
+                background-size:cover;
+              background-position:50% 40%;
+            }
+                 
+            
+            }
+              @media all  and (min-width: 800px) and (max-width: 999px){
+                 #intro   p{
+                font-size:2.5em;
+                 font-weight:bold;
+                 }
+                 
+                  #med-icon-1{
+                
+                background-color:yellow;
+                background:url("./pics/facebook-like-thumb-up-icon-630.jpg") no-repeat ;
+                background-size:cover;
+                background-position:50% 50%;
+            }
+            #med-icon-2{
+                
+                background-color:yellow;
+                background:url("./pics/twitter1600.png") no-repeat;
+                background-size:cover;
+              background-position:50% 100%;
+            }
+            #med-icon-3{
+                
+                background-color:yellow;
+                background:url("./pics/Pinterest-logo-850x250.jpg") no-repeat ;
+                background-size:cover;
+                 background-position:40% 50%;
+            }
+            #med-icon-4{
+                
+                background-color:yellow;
+                background:url("./pics/Instagram_Icon_Large-504x220.jpg") no-repeat;
+                background-size:cover;
+              background-position:100% 20%;
+            }
+                 
+                 
+                 
+                 
+                 
+            }
+              @media all  and (min-width: 1000px){
+                 #intro   p{
+                font-size:3em;
+                 font-weight:bold;
+                 }
+            }

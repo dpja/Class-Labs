@@ -1,0 +1,49 @@
+*{
+    
+    
+    box-sizing:border-box;
+}
+
+
+
+body{
+                  //  background: orange;
+                    background: lightgray;
+                }
+                #wrapper{
+                    width:80%;
+                    margin:0px auto;
+                    
+                }
+                
+                
+                 #img-gallery img{
+                width:16.6%; 
+                float:left;
+                height:80px;
+                padding:.1%;
+            }
+                
+                 #img-gallery img:nth-of-type(6){
+                width:17%; 
+            }
+                
+                
+                 #row-1-img-box{
+                width:100%;
+                min-height: 90px; 
+               background: url("./dummy-pics/Gernsheim_1.jpg") no-repeat;
+                transform:rotate(-10deg);
+               border:1px solid white;
+               border-radius:50%;
+               background-size: 100% 100%;
+               padding:4%;
+               padding-right:2%;
+               margin-top:10%;
+               margin-left:2%;
+            }
+           
+                
+                
+                
+                

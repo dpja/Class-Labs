@@ -1,0 +1,490 @@
+/*   ==============BIG SECTIONS=====================*/
+            body{
+               //  background-color: #a6a6a6;
+          background-color: lightgray;
+             font-family: Verdana, Arial, Helvetica, sans-serif;
+                }
+            #wrapper{
+                 background-color: rgb(204, 255, 204);
+               // background-color: whitesmoke;
+                min-height: 1600px;
+            }
+            header,footer{
+                 background-color:rgb(51, 153, 102);
+             //  background-color: green;
+                min-height: 200px;  
+            }
+       footer{
+                //  background-color: powderblue;
+                   background-color:rgb(204, 242, 255);
+                min-height: 100px;  
+                font-size:14px;
+            }
+            
+            main{
+                  background-color: cyan;
+                min-height: 1425px;   
+            }
+            
+/*===================WRAPPER SECTION===========================*/
+             #wrapper{
+                 
+                  background-color: rgb(204, 255, 204);
+              //  background-color: whitesmoke;
+                min-height: 1600px;
+                margin:0px auto;
+                width:75%;
+            }
+            
+ /*===================WRAPPER SECTION  ENDED===========================*/     
+/*================HEADER SUB SECTIONS==================*/
+            header{
+background-color:rgb(51, 153, 102);
+             //   background-color:hotpink;
+                min-height: 200px;  
+            }
+
+            #heading{
+              //  background-color: darkblue;
+                min-height: 80px;  
+            }
+            #heading         p{
+                font-size:1.5em;
+                font-weight:bold;
+                color:white;
+                padding: 1%;
+                padding-top: 5%;
+            }
+            #img-gallery{
+                background-color: darkcyan;
+                width:100%;
+                min-height: 80px; 
+            }
+            #img-gallery img{
+                width:16.66%; 
+                float:left;
+                height:80px;
+                padding:0%;
+            }
+            #img-gallery img:nth-of-type(6){
+              //  width:18%; 
+            }
+            #company-slogan{
+                width:100%; 
+
+            }
+            #company-slogan h5{
+                font-size:1em;
+                font-weight:bold;
+              //  color:white;
+                 color:rgb(179, 204, 255);
+                text-align: right;
+                padding-top:1.5%;
+                padding-right:1%;
+                font-style: italic;
+                
+            }
+
+            /*================HEADER SUB SECTIONS  ENDED==================*/
+            
+            
+            /*========================MAIN-----PARTS==================================*/
+        
+           main{
+                background-color: rgb(204, 255, 204);
+                //  background-color: cyan;
+                min-height: 1425px; 
+                 width: 100%;
+                
+            } 
+
+             #nav{
+                background-color:gold;
+                min-height: 1425px; 
+                 width: 30%;
+                 float:left;
+                  background:url("./dummy-pics/lorem.jpg");
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-size: cover;
+                 
+            }
+            #col-content{
+                width:70%;
+                float:right;
+                background-color: tan;
+                min-height: 1425px;
+              //  outline:1px solid red;
+            }
+            
+             /*========================MAIN-----PARTS====ENDED==============================*/
+/*================================NAV -----PARTS=====START=======================*/
+            #nav{
+                background-color:gold;
+                min-height: 1425px; 
+                 width: 30%;
+                 float:left;
+                 background:url("./dummy-pics/lorem.jpg");
+              background-repeat: no-repeat;
+              background-position: bottom center;
+              background-size: cover;
+            }
+            #nav li{
+                width:100%;
+                border-bottom:2px solid navy;
+                 box-shadow:0px -2px 0px 1px mediumorchid;
+               // outline:2px solid red;
+               
+            }  
+            #nav li a{
+                width:100%;
+                display:block; 
+                padding-left:1.5%;
+                min-height:35px;
+                line-height: 35px;
+                text-decoration: none;
+             //   outline:2px solid red;
+                font-weight: bold;
+                font-family:serif;
+                background-color: rgb(255, 153, 102);
+                color:white;
+                
+            } 
+            main    #nav li:first-child{
+                  box-shadow:0px 0px 0px 1px mediumorchid;
+                  background-color: rgb(153, 0, 51);
+            }
+
+            #nav li:hover{
+                  background-color:tomato; 
+            }
+            #nav li a:hover{
+                 color:white; 
+            }
+         
+            #nav li:hover a:hover{
+                width:100%;
+                height:100%;
+                background-color:rgb(102, 153, 255);
+                color:rgb(204, 255, 204);
+                 display:block;
+            }
+            /*================================NAV -----PARTS===ENDED=========================*/
+            /*================================col-content-----ROWS--INFO===START=========================*/
+             #col-content{
+                  background-color: rgb(204, 255, 204);
+               // background-color: tan;
+                min-height: 1425px;
+               // outline:1px solid red;
+            }
+          
+            #row-1{
+                 background-color: rgb(204, 255, 204);
+                // background-color:mediumaquamarine;
+                width:100%;
+               // overflow:auto;
+               min-height: 150px;
+               // outline:2px solid yellow;
+            }
+              #row-2{
+                   background-color: rgb(204, 255, 204);
+                // background-color:mediumspringgreen;
+                width:100%;
+               min-height: 230px;
+              //  outline:2px solid yellow;
+            }
+             #row-3{
+                  background-color: rgb(204, 255, 204);
+                // background-color:moccasin;
+                width:100%;
+               min-height: 300px;
+              //  outline:2px solid yellow;
+            }
+           /*================================col-content-----ROWS==INFO ==ENDED=========================*/    
+            /*=========================COL-CONTENT --ROW-1-===START======================*/
+             #col-content{
+                  background-color: rgb(204, 255, 204);
+              //  background-color: tan;
+                min-height: 1425px;
+               // outline:1px solid red;
+            }
+          
+            #row-1{
+                 background-color: rgb(204, 255, 204);
+                // background-color:mediumaquamarine;
+                width:100%;
+               // overflow:auto;
+               min-height: 150px;
+              //  outline:2px solid yellow;
+            }
+            #row-1-img-col{
+                width:30%;
+                min-height: 150px; 
+                float:left;
+            } 
+             #row-1-heading-box{
+                
+                width:70%;
+               float:right;
+                 min-height: 150px; 
+                
+            }
+            #row-1-img-box{
+                width:100%;
+                min-height: 90px; 
+               background: url("./dummy-pics/Gernsheim_1.jpg") no-repeat;
+                transform:rotate(-10deg);
+               border:1px solid white;
+               border-radius:50%;
+               background-size: 100% 100%;
+               padding:4%;
+               padding-right:3%;
+               margin-top:10%;
+               margin-left:2%;
+            }
+           
+            #row-1-heading-box h3{
+                
+                width:100%;
+                text-align:center;
+                color:red;
+                padding:1%;
+                padding-top:5%;
+                margin-right:1%;
+                font-size:23px;
+                font-weight:bold;
+                
+            }
+           
+            /*=========================COL-CONTENT --ROW-1-===ENDED======================*/ 
+            
+            /*=========================COL-CONTENT --ROW-2-===START======================*/  
+              /*=========================COL-CONTENT --ROW-2-===START======================*/  
+           #row-2{
+                background-color: rgb(204, 255, 204);
+               //  background-color:mediumspringgreen;
+                width:100%;
+               min-height: 230px;
+              //  outline:2px solid yellow;
+            }
+           
+           
+           #row-2-para-box{
+               
+                width:60%;
+               min-height: 230px; 
+               float:left;
+               
+           }
+            #row-2-img-caption-box{
+                width:40%;
+                float:right;
+               min-height: 230px; 
+             //  outline: 2px solid green;
+           }
+            #row-2-para-box p{
+             margin:5%;
+             margin-top:1%;
+             text-align:justify;
+           }
+            #row-2-para-box p:nth-of-type(1){
+              text-indent:150px; 
+           }
+            #row-2-para-box p:nth-of-type(1):first-letter{
+             font-size:35px; 
+            font-weight:bold;
+            font-family:serif;   
+           }
+           #row-2-img-box{
+                width:100%;
+                min-height:200px;
+             background: url("./dummy-pics/migrant.jpg") no-repeat;
+             background-size: 100% 100%;
+               padding:.1%;
+           }
+           #row-2-caption-box{
+               width:100%;
+                min-height:30px; 
+           }
+           #row-2-caption-box p{
+               width:100%;
+                font-weight:bold;
+                text-align: center;
+                 padding-top:2%;
+                
+           }
+             /*=========================COL-CONTENT --ROW-2-===ENDED======================*/
+             
+            /*=========================COL-CONTENT --ROW-3-===START======================*/  
+            
+             #row-3 p{
+                font-size:20px;
+                // font-weight:bold;
+                font-style:italic;
+                text-align: justify;
+                padding: 2%;
+                
+             }
+            
+             #row-3 p span{
+               
+                font-style:initial;
+             }
+             #row-3 ul{
+               padding: 2%;
+               list-style:inside;
+               padding-left: 5%;  
+               
+             }
+             #row-3 ul li{
+                 
+               padding-bottom:2%;    
+                 
+             }
+            
+           /*=========================COL-CONTENT --ROW-3-===ENDED======================*/    
+           /*=========================COL-CONTENT --ROW-4-===START======================*/    
+          
+             
+              #row-4{
+                   background-color: rgb(204, 255, 204);
+                // background-color:mediumturquoise;
+                width:100%;
+               min-height:90px;
+              //  outline:2px solid yellow;
+            }
+            #row-4 p{
+               font-size:20px;
+               text-align: center;
+               line-height: 20px;
+               padding:2%;
+               padding-top:5%;
+            }
+            
+            #row-4 p span{
+               font-size:30px;
+              
+            }
+             
+             
+           /*=========================COL-CONTENT --ROW-4-===ENDED======================*/ 
+           
+             /*=========================COL-CONTENT --ROW-5-===START======================*/  
+            
+            #row-5{
+                 background-color: rgb(204, 255, 204);
+               //  background-color:mistyrose;
+                width:100%;
+               min-height:330px;
+              //  outline:2px solid yellow;
+            }
+            #row-5-col-1{
+                float:left;
+                width:60%;
+               //  outline:2px solid green;
+            }
+            #row-5-col-2{
+                float:right;
+                width:40%;
+               //  outline:2px solid green;
+            }
+            
+            
+            #row-5-col-1  h1{
+                padding:5%;
+                font-weight:bold;
+            }
+            #row-5-col-1   p{
+                padding:2%;
+                padding-left:4%;
+                text-align: justify;
+              margin:1%;
+              padding-bottom: 3%;
+            }
+            
+            #row-5-col-2-img-caption-box{
+                  min-height:330px;
+                width:100%; 
+              //   outline:2px solid green;
+            }
+            #row-5-col-2-img-box{
+                  min-height:270px;
+                width:100%; 
+                background: url("./dummy-pics/khadi.jpg") no-repeat;
+                background-size:100% 100%;
+                margin-top:5%;
+              //   outline:2px solid tomato;
+            }
+            #row-5-col-2-caption-box{
+                  min-height:60px;
+                width:100%; 
+              //   outline:2px solid red;
+            }
+            #row-5-col-2-caption-box p{
+                 text-align: center;
+                width:100%; 
+                font-size:18px;
+                line-height:18px;
+                padding-top:5%;
+                margin-top:0%;
+                margin:0px auto;
+                font-weight: bold;
+                
+                 
+            }
+                 /*=========================COL-CONTENT --ROW-5-===ENDED======================*/ 
+                 /*=========================COL-CONTENT --ROW-6-===START======================*/ 
+             
+                 
+                #row-6{
+                     background-color: rgb(204, 255, 204);
+                // background-color:mediumslateblue;
+                width:100%;
+               min-height:100px;
+              //  outline:2px solid yellow;
+            }
+             #row-6 h1{
+                 padding:2%;
+                 padding-bottom: 1%;
+            }
+             #row-6 p{
+                 padding:2%;
+                 padding-left:2%;
+                 text-align: justify;
+            }  
+                 
+                 
+          /*=========================COL-CONTENT --ROW-6-===END======================*/        
+          /*=========================COL-CONTENT --ROW-6-===END======================*/        
+                 
+                 #row-7{
+                      background-color: rgb(204, 255, 204);
+               //  background-color:mediumorchid;
+                width:100%;
+               min-height:50px;
+              //  outline:2px solid yellow;
+            }
+            #row-7 p{
+                text-align:center;
+                font-weight:bold;
+                font-size:20px;
+                line-height: 20px;
+                padding:2%;
+            } 
+/*====================================FOOTER ================================*/
+  footer{
+       background-color:rgb(204, 242, 255);
+                 // background-color: powderblue;
+                min-height: 100px;  
+                font-size:14px;
+            }
+            
+            
+/*============================FOOTER SECTION================================*/
+            footer p{
+                 text-align: center;
+            }
+            footer p:nth-of-type(1){
+                padding: .5%;
+                padding-top: 1%;
+            }
